@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 import os
-#ola
+#aqui
 home = os.environ.get('USERPROFILE') or os.environ.get('HOME')
 #print(home)
 carpetas = os.listdir(home)
